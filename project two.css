@@ -1,0 +1,519 @@
+/*  
+    author: MD. Hafiz Bin Halim.
+    main: hbhlabib1@gmail.com
+    website: hafizbinhalim.com
+
+*/
+
+/*  
+
+    ====Index====
+    1. Header section.
+    2. free for everyone.
+    3.Our service.
+    4.Quotes.
+    5. price.
+    6.Facalities.
+    7. join us.
+    8. our latest updates.
+    9. more about tamplet.
+    10. Downlode now.
+    11. Footer section.
+
+*/
+
+/* Global css */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Theme css */
+
+/* header css */
+
+.header-section{
+    background-color: #edeff1;
+    padding: 20px 0px;
+}
+
+.header-menu-cst{
+    text-align: center;
+}
+
+.header-menu-cst ul{
+    list-style: none;
+    margin-top: 12px;
+}
+.header-menu-cst ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.header-menu-cst ul li a{
+    display: block;
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+    color: #686b6e;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/* header media */
+
+@media (max-width:500px){
+
+    .header-menu-cst ul li a{
+        width: 90px;
+        font-size: 11px;
+    }
+
+    .header-img-cst{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+}
+
+
+@media (min-width: 501px) and (max-width: 766px) {
+
+    .header-menu-cst ul li a{
+        width: 92px;
+        font-size: 12px;
+    }
+
+    .header-img-cst{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (min-width: 768.01px) and (max-width: 992px) {
+
+    .header-menu-cst ul li a{
+        width: 90px;
+        font-size: 11px;
+    }
+
+    .header-img-cst{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+}
+
+/* banner css*/
+
+.banner-section{
+    background: url(./project-two-main-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    padding: 250px 0px 90px;
+    text-align: center;
+}
+
+.b-con h1{
+    margin: 0px 0px 20px;
+    font-weight: 400;
+}
+.b-con h2{
+    margin: 0px 0px 50px;
+}
+
+.cst-b-col h4{
+    margin: 10px 0px 10px;
+}
+.cst-b-col p{
+    line-height: 30px;
+}
+.b-btn{
+    color: #8b5e54 !important;
+    text-decoration: none;
+    background: #fff;
+    font-weight: 600;
+    display: block;
+    width: 15%;
+    margin: 25px auto 0px;
+    padding: 10px 15px;
+    border-radius: 30px;
+}
+
+.b-btn:hover{
+    text-decoration: none;
+}
+
+/* banner css media*/
+
+@media (max-width:500px){
+
+    .banner-section{
+        padding: 100px 0px 50px;
+        text-align: center;
+    }
+
+    .cst-b-col{
+        margin-bottom: 20px;
+    }
+
+    .b-btn{
+        width: 30%;
+    }
+
+}
+
+
+@media (min-width: 501px) and (max-width: 766px) {
+
+    .banner-section{
+        padding: 100px 0px 50px;
+        text-align: center;
+    }
+
+    .cst-b-col{
+        margin-bottom: 20px;
+    }
+
+    .b-btn{
+        width: 30%;
+    }
+
+
+}
+
+@media (min-width: 768.01px) and (max-width: 992px) {
+
+    .banner-section{
+        padding: 100px 0px 50px;
+        text-align: center;
+    }
+
+    .cst-b-col{
+        margin-bottom: 20px;
+    }
+
+    .b-btn{
+        width: 30%;
+    }
+
+}
+
+/* our news css */
+
+.our-news{
+    background: #edeff1;
+    color: #727272;
+    text-align: center;
+    padding: 60px 0px 70px;
+}
+
+.o-btn{
+    color: #727272 !important;
+    text-decoration: none;
+    background: #fff;
+    font-weight: 600;
+    display: block;
+    width: 40%;
+    margin: 10px auto 10px;
+    padding: 10px 15px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.o-btn:hover{
+    text-decoration: none;
+}
+
+.o-con h1{
+    color: #222222 !important;
+    margin: 0px 0px 50px;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.cst-o-col h3{
+    margin: 15px 0px 15px;
+    color: #222222 !important;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+
+/* our news media css */
+
+@media (max-width:500px){
+
+    .cst-o-col{
+        margin-bottom: 20px;
+    }
+
+    .our-news{
+        padding: 60px 0px 30px;
+    }
+
+}
+
+
+@media (min-width: 501px) and (max-width: 766px) {
+
+    .cst-o-col{
+        margin-bottom: 20px;
+    }
+
+    .our-news{
+        padding: 60px 0px 30px;
+    }
+
+}
+
+@media (min-width: 768.01px) and (max-width: 992px) {
+
+    .cst-o-col{
+        margin-bottom: 20px;
+    }
+
+    .our-news{
+        padding: 60px 0px 30px;
+    }
+
+}
+
+/* news lwtter css */
+
+.news-letter{
+    background: url(./newslettwr-plus-footer-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0px;
+    text-align: center;
+    color: white;
+}
+.new-sec-cst{}
+.new-sec-cst h2{
+    margin: 0px 0px 20px;
+}
+.new-sec-cst h3{
+    font-size: 18px;
+    margin: 0px 0px 20px;
+}
+.new-sec-cst input{
+    width: 50%;
+    padding: 6px 15px;
+    border: none;
+    outline: none;
+    background: #ffffff3b;
+    border-radius: 30px;
+    position: relative;
+}
+.new-sec-cst a{
+    color: #8b5e54 !important;
+    text-decoration: none;
+    background: #fff;
+    font-weight: 600;
+    display: inline-block;
+    width: 20%;
+    padding: 6px 20px;
+    border-radius: 30px;
+    position: absolute;
+    top: 120px;
+    left: 495px;
+}
+
+/* news lwtter media css */
+
+@media (max-width:500px){
+
+    .new-sec-cst a{
+        width: 28%;
+        top: 142px;
+        left: 290px;
+    }
+
+    .new-sec-cst input{
+        width: 70%;
+    }
+
+}
+
+
+@media (min-width: 501px) and (max-width: 766px) {
+
+    .new-sec-cst a{
+        width: 25%;
+        top: 142px;
+        left: 360px;
+    }
+
+    .new-sec-cst input{
+        width: 70%;
+    }
+
+
+}
+
+@media (min-width: 768.01px) and (max-width: 992px) {
+
+    .new-sec-cst a{
+        width: 28%;
+        top: 142px;
+        left: 290px;
+    }
+
+    .new-sec-cst input{
+        width: 80%;
+    }
+
+}
+
+/* the burger section css */
+.burger-section{
+    padding: 40px 0px;
+}
+.cst-br-1{
+    margin-bottom: 40px;
+}
+.cst-br-1 h2{
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0px 0px 25px;
+}
+
+.cst-br-1 a{
+    color: #fff;
+    text-decoration: none;
+    background: #f1742b;
+    font-weight: 600;
+    display: block;
+    width: 25%;
+    padding: 8px 22px;
+    border-radius: 30px;
+    text-align: center;
+    margin: 30px 0px 0px;
+}
+
+.cst-br-bt{
+    background-color: rgb(81, 23, 216) !important;
+}
+
+/* the burger section media css */
+
+@media (max-width:500px){
+
+    .cst-br-1 a{
+        margin: 20px auto 20px;
+    }
+
+    .cst-br-bt{
+        margin-bottom: 0px;
+    }
+
+    .cst-br-1 h2{
+        font-size: 25px;
+        font-weight: 600;
+        margin: 20px 0px 25px;
+    }
+
+    .cst-br-1{
+        text-align: center;
+    }
+
+}
+
+
+@media (min-width: 501px) and (max-width: 766px) {
+
+    .cst-br-1 a{
+        margin: 20px auto 20px;
+    }
+
+    .cst-br-bt{
+        margin-bottom: 0px;
+    }
+
+    .cst-br-1 h2{
+        font-size: 25px;
+        font-weight: 600;
+        margin: 20px 0px 25px;
+    }
+
+    .cst-br-1{
+        text-align: center;
+    }
+
+
+}
+
+@media (min-width: 768.01px) and (max-width: 992px) {
+
+    .cst-br-1 a{
+        margin: 20px 0px 20px;
+        width: 40%;
+    }
+
+    .cst-br-bt{
+        margin-bottom: 0px;
+    }
+
+}
+
+/* list section css */
+
+.list-section{
+    background-color: #ff5e00;
+    padding: 40px 0px 0px;
+    text-align: center;
+    color: white;
+}
+
+.cst-list ul{
+    list-style: none;
+}
+.cst-list ul li{
+    display: block;
+    line-height: 35px;
+}
+
+/* list media css */
+
+@media (max-width:500px){
+
+    .cst-list{
+        margin-bottom: 20px;
+    }
+
+}
+
+
+@media (min-width: 501px) and (max-width: 766px) {
+
+    .cst-list{
+        margin-bottom: 20px;
+    }
+
+}
+
+/* footer section */
+
+.footer-section{
+    background: url(./newslettwr-plus-footer-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0px;
+    color: white;
+    text-align: center;
+}
+
+.cst-footer h2{
+    font-size: 20px;
+}
+ 
+
+                        /* the end */
